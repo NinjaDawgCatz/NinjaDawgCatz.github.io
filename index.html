@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!style="color:blue;text-align:center;"
+<html>
+<head>
+<title>data</title>
+</head>
+<body>
+	data store 2
+	
+	<form>
+	<input id="TextInput" placeholder="Message">
+	</form>
+	<button onclick="Post()">Submit</button>
+
+	<div id="TextOutput">
+
+	<div>
+
+
+	<script>
+	function Post(){
+		document.getElementById("TextOutput").innerHTML += document.getElementById("TextInput").value + "<br>";
+	}
+
+	</script>
+</body>
+</html>
